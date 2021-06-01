@@ -9,7 +9,7 @@ console.log(nomeInvitato);
 
 for (var i = 0; i < listaInvitati.length; i++) {
 
-    if (listaInvitati = nomeInvitato) {
+    if (listaInvitati == nomeInvitato) {
         document.getElementById("esito_invito").innerHTML = "HEY! " + nomeInvitato + " BENVENUTO ALLA FESTA!"
     }else {
         document.getElementById("esito_invito").innerHTML = "HEY! " + nomeInvitato + " CI DISPIACE MA NON SEI STATO INVITATO!"
